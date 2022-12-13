@@ -57,7 +57,7 @@ const MoviePage = () => {
       </PullToRefresh>
       <MyModal
         open={openModal}
-        title="Detail"
+        title="Detail 2"
         onClose={() => {
           setMoveId(undefined)
           setOpenModal(false)}
